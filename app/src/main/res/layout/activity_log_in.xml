@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/sky"
+    tools:context=".LogIn">
+
+    <!--<EditText
+        android:id="@+id/E_N"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Name"
+        android:textColor="#000"
+        android:padding="15dp"
+        android:background="@drawable/edit"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        />-->
+
+    <EditText
+        android:id="@+id/E_E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:textColorHint="#000"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:padding="15dp"
+        android:background="@drawable/edit"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/E_P"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textColorHint="#000"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:padding="15dp"
+        android:background="@drawable/edit"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/B_L"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="LogIn"
+        android:background="@drawable/button"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        />
+
+    <Button
+        android:id="@+id/B_R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        />
+
+</LinearLayout>

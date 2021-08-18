@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "590131229114",
+    "firebase_url": "https://fir-bug-ea42b.firebaseio.com",
+    "project_id": "fir-bug-ea42b",
+    "storage_bucket": "fir-bug-ea42b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590131229114:android:9ec60560a397a775",
+        "android_client_info": {
+          "package_name": "com.example.smart.bug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590131229114-jsur0ihpqs8r6rif37cd2skjue60jb7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5F6BhxjUC6TEXDhG-lexNS5Cx8qgM_GU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
